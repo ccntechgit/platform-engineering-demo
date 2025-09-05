@@ -14,12 +14,12 @@ metadata:
     - url: https://github.com/ccntechgit/platform-engineering-demo.git
       title: Github Repo
       icon: github
-    - url: https://effective-waddle-6w95gvjg9wfxq66-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://effective-waddle-6w95gvjg9wfxq66-80.app.github.dev/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://effective-waddle-6w95gvjg9wfxq66-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+      url: https://effective-waddle-6w95gvjg9wfxq66-30100.app.github.dev/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
     - title: View in Dynatrace
       icon: catalog
       url: https://uxg83855.apps.dynatrace.com
